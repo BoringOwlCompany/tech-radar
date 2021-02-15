@@ -44,35 +44,35 @@ radar_visualization({
   entries: [
       {
         quadrant: 2,
-        ring: 1,
+        ring: 0,
         label: "AWS S3",
         active: false,
         moved: 0
       },
       {
         quadrant: 2,
-        ring: 1,
+        ring: 0,
         label: "AWS EC2",
         active: false,
         moved: 0
       },
       {
         quadrant: 1,
-        ring: 2,
+        ring: 0,
         label: "Yarn",
         active: false,
         moved: 0
       },
       {
         quadrant: 2,
-        ring: 3,
+        ring: 0,
         label: "Npm",
         active: false,
         moved: 0
       },
       {
         quadrant: 3,
-        ring: 0,
+        ring: 1,
         label: "Elasticsearch",
         active: false,
         moved: 0
@@ -108,20 +108,13 @@ radar_visualization({
       {
         quadrant: 3,
         ring: 1,
-        label: "HDFS",
-        active: false,
-        moved: 0
-      },
-      {
-        quadrant: 3,
-        ring: 3,
         label: "Memcached",
         active: false,
         moved: 0
       },
       {
         quadrant: 3,
-        ring: 3,
+        ring: 1,
         label: "MongoDB",
         active: false,
         moved: 0
@@ -142,7 +135,7 @@ radar_visualization({
       },
       {
         quadrant: 1,
-        ring: 2,
+        ring: 0,
         label: "Redux ( thunk, saga )",
         active: false,
         moved: 0
@@ -163,8 +156,15 @@ radar_visualization({
       },
       {
         quadrant: 3,
-        ring: 0,
+        ring: 2,
         label: "ECR",
+        active: false,
+        moved: 0
+      },
+      {
+        quadrant: 3,
+        ring: 2,
+        label: "AWS Fargate",
         active: false,
         moved: 0
       },
@@ -180,11 +180,11 @@ radar_visualization({
         ring: 0,
         label: "Heroku",
         active: false,
-        moved: 1
+        moved: 0
       },
       {
         quadrant: 2,
-        ring: 2,
+        ring: 0,
         label: "AWS Lambda",
         active: false,
         moved: 0
@@ -254,13 +254,6 @@ radar_visualization({
         active: false,
         moved: 0
       },
-      {
-        quadrant: 3,
-        ring: 1,
-        label: "RabbitMQ",
-        active: false,
-        moved: 0
-      },
   ]
   //ENTRIES
 });
@@ -290,9 +283,6 @@ The Boring Owl Tech Radar is a list of technologies, complemented by an assessme
 <p>
 Thanks to Zalando engineers for creating a tech radar
 </p>
-  
-<p>
-<em>BTW, if you would like to create your own Tech Radar &mdash; Zalando have <a href="https://github.com/zalando/tech-radar">open sourced the code</a> to generate this visualization.</em>
-</p>
+ 
 </body>
 </html>
